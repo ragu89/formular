@@ -1,0 +1,1 @@
+C:\Dev\Src\Formular\Formular\Formular.UWP\Formular.UWP.csproj;x86

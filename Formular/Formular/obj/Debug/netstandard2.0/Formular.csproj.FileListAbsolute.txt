@@ -1,0 +1,11 @@
+C:\Dev\Src\Formular\Formular\Formular\bin\Debug\netstandard2.0\Formular.deps.json
+C:\Dev\Src\Formular\Formular\Formular\bin\Debug\netstandard2.0\Formular.dll
+C:\Dev\Src\Formular\Formular\Formular\bin\Debug\netstandard2.0\Formular.pdb
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.csprojResolveAssemblyReference.cache
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.csproj.CoreCompileInputs.cache
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.App.xaml.g.cs
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.MainPage.xaml.g.cs
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.AssemblyInfoInputs.cache
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.AssemblyInfo.cs
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.dll
+C:\Dev\Src\Formular\Formular\Formular\obj\Debug\netstandard2.0\Formular.pdb

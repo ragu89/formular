@@ -13,5 +13,10 @@ namespace Formular
 		{
 			InitializeComponent();
 		}
-	}
+
+        void Save_Clicked(object sender, System.EventArgs e)
+        {
+            DisplayAlert("New member", "New member has been saved", "Close");
+        }
+    }
 }

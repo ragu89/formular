@@ -1,11 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Formular"
-             x:Class="Formular.MainPage" BackgroundColor="Blue">
+             x:Class="Formular.MainPage"
+             Title="Formular">
 
-    <Grid BackgroundColor="LightBlue">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="formularLabel" TargetType="Label">
+                <Setter Property="Margin" Value="8,4,32,4" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid VerticalOptions="Start" Margin="8">
         <Grid.RowDefinitions>
+            <RowDefinition />
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
@@ -13,20 +24,21 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Label x:Uid="firstNameLabel" Grid.Row="0" Grid.Column="0" Text="First name" />
-        <Label x:Uid="lastNameLabel" Grid.Row="1" Grid.Column="0" Text="Last name" />
-        <Label x:Uid="emailLabel" Grid.Row="2" Grid.Column="0" Text="E-mail" />
-        <Label x:Uid="birtDateLabel" Grid.Row="3" Grid.Column="0" Text="Birthdate" />
+        <Label x:Uid="firstNameLabel" Style="{StaticResource formularLabel}" Grid.Row="0" Grid.Column="0" Text="First name" />
+        <Label x:Uid="lastNameLabel" Style="{StaticResource formularLabel}" Grid.Row="1" Grid.Column="0" Text="Last name" />
+        <Label x:Uid="emailLabel" Style="{StaticResource formularLabel}" Grid.Row="2" Grid.Column="0" Text="E-mail" />
+        <Label x:Uid="birtDateLabel" Style="{StaticResource formularLabel}" Grid.Row="3" Grid.Column="0" Text="Birthdate" />
 
         <Entry x:Uid="firstNameEntry" Grid.Row="0" Grid.Column="1" />
         <Entry x:Uid="lastNameEntry" Grid.Row="1" Grid.Column="1" />
         <Entry x:Uid="emailEntry" Grid.Row="2" Grid.Column="1" Keyboard="Email" />
         <DatePicker x:Uid="birthDatePicker" Grid.Row="3" Grid.Column="1" />
 
+        <Button x:Uid="savePersonButton" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="Save" Clicked="Save_Clicked" />
     </Grid>
 
 </ContentPage>

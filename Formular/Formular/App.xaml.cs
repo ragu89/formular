@@ -13,7 +13,7 @@ namespace Formular
 		{
 			InitializeComponent();
 
-			MainPage = new Formular.MainPage();
+            MainPage = new NavigationPage(new Formular.MainPage());
 		}
 
 		protected override void OnStart ()
